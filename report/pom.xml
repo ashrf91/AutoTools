@@ -25,7 +25,7 @@
 		</dependency>
 	</dependencies>
 
-	<!-- <distributionManagement>
+	<distributionManagement>
 		<repository>
 			<id>central</id>
 			<name>aolshared3a-releases</name>
@@ -36,6 +36,6 @@
 			<name>aolshared3a-snapshots</name>
 			<url>https://taybee.jfrog.io/taybee/libs-snapshot</url>
 		</snapshotRepository>
-	</distributionManagement> -->
+	</distributionManagement>
 
 </project>
