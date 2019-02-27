@@ -8,7 +8,7 @@ public class Report {
 		report(message, status, false);
 	}
 
-	public static void report(String message, Status status, boolean negative) throws Exception {
+	public static void report(String message, Status status, boolean negative){
 		if (negative) {
 			if (status.equals(Status.FAIL))
 				status = Status.PASS;
