@@ -4,7 +4,7 @@ import org.junit.Assert;
 
 public class Report {
 
-	public static void report(String message, Status status) throws Exception {
+	public static void report(String message, Status status){
 		report(message, status, false);
 	}
 
